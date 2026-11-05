@@ -1,0 +1,46 @@
+{
+  "policies": [
+    {
+      "id": "POL-392819",
+      "type": "auto",
+      "coverage": 250000,
+      "deductible": 500,
+      "premium": 65,
+      "year": "2023",
+      "history": "clean",
+      "status": "Active",
+      "date": "2026-04-12"
+    },
+    {
+      "id": "POL-829104",
+      "type": "health",
+      "coverage": 500000,
+      "deductible": 1000,
+      "premium": 110,
+      "age": "20",
+      "smoker": "no",
+      "status": "Active",
+      "date": "2026-05-20"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLM-748291",
+      "policyId": "POL-392819",
+      "type": "auto",
+      "date": "2026-06-15",
+      "loss": 1200,
+      "description": "Minor fender bender during parking maneuver. Rear bumper scuffed.",
+      "status": "Approved"
+    },
+    {
+      "id": "CLM-903821",
+      "policyId": "POL-829104",
+      "type": "health",
+      "date": "2026-07-01",
+      "loss": 450,
+      "description": "Routine checkup and physical therapy sessions.",
+      "status": "Pending"
+    }
+  ]
+}

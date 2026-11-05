@@ -1,0 +1,10 @@
+[build]
+  publish = "frontend"
+  functions = "netlify/functions"
+
+# Redirect /api/* calls to our serverless Express API function
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+  force = true
