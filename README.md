@@ -1,4 +1,4 @@
-# 🛡️ DASS Insurance — Cloud-Powered Serverless Platform
+# 🛡️ DASS Insurance — Cloud-Powered Sample Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-AWS%20%7C%20Netlify-orange)](https://aws.amazon.com/)
